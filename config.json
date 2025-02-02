@@ -1,0 +1,16 @@
+{
+    "file_paths": {
+        "input_csv": "D:/Data Science/Projects/Weather data pipeline/Data/goibibo_com-travel_sample.csv",
+        "transformed_csv": "D:/Data Science/Projects/Weather data pipeline/transformed_data.csv"
+    },
+    "api_config": {
+        "weather_api_url": "https://api.weatherstack.com/current",
+        "weather_api_key": "weather-api-key"
+    },
+    "aws_config": {
+        "aws_access_key": "aws-access-key",
+        "aws_secret_key": "aws-secret-key",
+        "s3_bucket_name": "weather1312",
+        "s3_file_name": "weather_data_transformed.csv"
+    }
+}

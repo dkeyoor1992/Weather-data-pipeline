@@ -22,10 +22,12 @@ This project automates the process of fetching real-time weather data from an AP
 ## 📂 Folder Structure
 weather_data_pipeline/ 
 ├── src/ 
+
 │ ├── fetch_weather.py
 │ ├── transform.py 
 │ ├── s3_uploader.py 
 │ ├── config.py
+
 ├── config.json
 ├── main.py
 ├── requirements.txt

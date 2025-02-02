@@ -23,15 +23,14 @@ This project automates the process of fetching real-time weather data from an AP
 weather_data_pipeline/ 
 ├── src/ 
 
-│ ├── fetch_weather.py
-│ ├── transform.py 
-│ ├── s3_uploader.py 
-│ ├── config.py
-
-├── config.json
-├── main.py
-├── requirements.txt
-├── README.md
+│ ├── fetch_weather.py  
+│ ├── transform.py  
+│ ├── s3_uploader.py  
+│ ├── config.py  
+├── config.json  
+├── main.py  
+├── requirements.txt  
+├── README.md  
 
 ** 2 Create a Virtual Environment **
 python -m venv venv
@@ -61,20 +60,20 @@ Melt Operation: Converts wide format to long format
 
 
 🔒 Security Best Practices
-✅ Do NOT hardcode API keys in Python scripts
-✅ Use config.json to store sensitive credentials
-✅ Grant IAM permissions with least privilege (e.g., only s3:PutObject)
-✅ Use .gitignore to prevent uploading credentials
+✅ Do NOT hardcode API keys in Python scripts  
+✅ Use config.json to store sensitive credentials  
+✅ Grant IAM permissions with least privilege (e.g., only s3:PutObject)  
+✅ Use .gitignore to prevent uploading credentials    
 
-📌 Future Improvements
-🔄 Automate scheduling with Airflow or Lambda
-📊 Connect Tableau / Power BI for dashboard insights
-🏎️ Optimize with multi-threading for faster API requests
-🔄 Store data in AWS Glue / Athena for queries
+📌 Future Improvements  
+🔄 Automate scheduling with Airflow or Lambda  
+📊 Connect Tableau / Power BI for dashboard insights  
+🏎️ Optimize with multi-threading for faster API requests  
+🔄 Store data in AWS Glue / Athena for queries  
 
 
-📜 License
-This project doesn't need a License.
+📜 License  
+This project doesn't need a License.  
 
 
 

@@ -59,7 +59,7 @@ Weather Categorization: Clear, Cloudy, Rainy, etc.
 Melt Operation: Converts wide format to long format
 
 
-🔒 Security Best Practices
+🔒 Security Best Practices  
 ✅ Do NOT hardcode API keys in Python scripts  
 ✅ Use config.json to store sensitive credentials  
 ✅ Grant IAM permissions with least privilege (e.g., only s3:PutObject)  

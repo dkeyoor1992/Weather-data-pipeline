@@ -40,6 +40,7 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 
 🚀 Usage
+
 1️⃣ Fetch Weather Data from API
 python main.py
 
